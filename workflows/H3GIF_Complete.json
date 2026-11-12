@@ -1,0 +1,1746 @@
+{
+  "id": "h3gif-complete-h3-image-v1",
+  "revision": 0,
+  "last_node_id": 19,
+  "last_link_id": 24,
+  "nodes": [
+    {
+      "id": 1,
+      "type": "H3GIFStoryboardDirector",
+      "title": "1. H3GIF Storyboard Director",
+      "pos": [
+        40,
+        180
+      ],
+      "size": [
+        430,
+        620
+      ],
+      "flags": {},
+      "order": 0,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "scene_description",
+          "name": "scene_description",
+          "type": "STRING",
+          "widget": {
+            "name": "scene_description"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "panel_actions",
+          "name": "panel_actions",
+          "type": "STRING",
+          "widget": {
+            "name": "panel_actions"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "rows",
+          "name": "rows",
+          "type": "INT",
+          "widget": {
+            "name": "rows"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "columns",
+          "name": "columns",
+          "type": "INT",
+          "widget": {
+            "name": "columns"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "gutter_pixels",
+          "name": "gutter_pixels",
+          "type": "INT",
+          "widget": {
+            "name": "gutter_pixels"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "character_lock",
+          "name": "character_lock",
+          "type": "STRING",
+          "widget": {
+            "name": "character_lock"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "style_prompt",
+          "name": "style_prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "style_prompt"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "extra_instructions",
+          "name": "extra_instructions",
+          "type": "STRING",
+          "widget": {
+            "name": "extra_instructions"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "localized_name": "positive_prompt",
+          "name": "positive_prompt",
+          "type": "STRING",
+          "links": [
+            1
+          ]
+        },
+        {
+          "localized_name": "rows",
+          "name": "rows",
+          "type": "INT",
+          "links": [
+            2
+          ]
+        },
+        {
+          "localized_name": "columns",
+          "name": "columns",
+          "type": "INT",
+          "links": [
+            3
+          ]
+        },
+        {
+          "localized_name": "gutter_pixels",
+          "name": "gutter_pixels",
+          "type": "INT",
+          "links": [
+            4,
+            5
+          ]
+        },
+        {
+          "localized_name": "panel_count",
+          "name": "panel_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "localized_name": "director_info",
+          "name": "director_info",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "H3GIFStoryboardDirector"
+      },
+      "widgets_values": [
+        "A cinematic scene with one clearly readable character.",
+        "1. The character notices something off-screen.\n2. The character turns toward it.\n3. The character reacts with surprise.\n4. The character moves toward the source of the reaction.",
+        2,
+        2,
+        8,
+        "same character design, same face, same hairstyle, same outfit, consistent proportions",
+        "cinematic 3D animated film still, consistent lighting and color palette, high detail",
+        ""
+      ],
+      "widgets_values_named": {
+        "scene_description": "A cinematic scene with one clearly readable character.",
+        "panel_actions": "1. The character notices something off-screen.\n2. The character turns toward it.\n3. The character reacts with surprise.\n4. The character moves toward the source of the reaction.",
+        "rows": 2,
+        "columns": 2,
+        "gutter_pixels": 8,
+        "character_lock": "same character design, same face, same hairstyle, same outfit, consistent proportions",
+        "style_prompt": "cinematic 3D animated film still, consistent lighting and color palette, high detail",
+        "extra_instructions": ""
+      }
+    },
+    {
+      "id": 2,
+      "type": "UNETLoader",
+      "pos": [
+        520,
+        -220
+      ],
+      "size": [
+        364.2971140380314,
+        105.99734005779271
+      ],
+      "flags": {},
+      "order": 1,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "unet_name",
+          "name": "unet_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "unet_name"
+          },
+          "link": null
+        },
+        {
+          "label": "weight_dtype",
+          "name": "weight_dtype",
+          "type": "COMBO",
+          "widget": {
+            "name": "weight_dtype"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "模型",
+          "name": "MODEL",
+          "type": "MODEL",
+          "links": [
+            6
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "UNETLoader",
+        "cnr_id": "comfy-core",
+        "models": [
+          {
+            "name": "minimax_h3_image_pruned_int8_convrot.safetensors",
+            "directory": "diffusion_models",
+            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/main/diffusion_models/minimax_h3_image_pruned_int8_convrot.safetensors"
+          }
+        ],
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "minimax_h3_image_pruned_int8_convrot.safetensors",
+        "default"
+      ],
+      "widgets_values_named": {
+        "unet_name": "minimax_h3_image_pruned_int8_convrot.safetensors",
+        "weight_dtype": "default"
+      },
+      "title": "2. H3 Image UNET"
+    },
+    {
+      "id": 3,
+      "type": "CLIPLoader",
+      "pos": [
+        520,
+        -40
+      ],
+      "size": [
+        374.98374515707485,
+        106
+      ],
+      "flags": {},
+      "order": 2,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "clip_name",
+          "name": "clip_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "clip_name"
+          },
+          "link": null
+        },
+        {
+          "label": "type",
+          "name": "type",
+          "type": "COMBO",
+          "widget": {
+            "name": "type"
+          },
+          "link": null
+        },
+        {
+          "label": "device",
+          "name": "device",
+          "shape": 7,
+          "type": "COMBO",
+          "widget": {
+            "name": "device"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "CLIP",
+          "name": "CLIP",
+          "type": "CLIP",
+          "links": [
+            7
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "CLIPLoader",
+        "cnr_id": "comfy-core",
+        "models": [
+          {
+            "name": "qwen3vl_32b_minimax_h3_int8_convrot.safetensors",
+            "directory": "text_encoders",
+            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3/resolve/main/text_encoders/qwen3vl_32b_minimax_h3_int8_convrot.safetensors"
+          }
+        ],
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "minimax",
+        "default"
+      ],
+      "widgets_values_named": {
+        "clip_name": "qwen3vl_32b_minimax_h3_nvfp4_awq.safetensors",
+        "type": "minimax",
+        "device": "default"
+      },
+      "title": "3. H3 Image CLIP（type=minimax）"
+    },
+    {
+      "id": 4,
+      "type": "VAELoader",
+      "pos": [
+        520,
+        180
+      ],
+      "size": [
+        374.57826842281884,
+        89.14323713460101
+      ],
+      "flags": {},
+      "order": 3,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "vae_name",
+          "name": "vae_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "vae_name"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "VAE",
+          "name": "VAE",
+          "type": "VAE",
+          "links": [
+            8,
+            9
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAELoader",
+        "cnr_id": "comfy-core",
+        "models": [
+          {
+            "name": "minimax_h3_image_vae_fp16.safetensors",
+            "directory": "vae",
+            "url": "https://huggingface.co/Comfy-Org/MiniMax-H3-Image/resolve/main/vae/minimax_h3_image_vae_fp16.safetensors"
+          }
+        ],
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "minimax_h3_image_vae_fp16.safetensors"
+      ],
+      "widgets_values_named": {
+        "vae_name": "minimax_h3_image_vae_fp16.safetensors"
+      },
+      "title": "4. H3 Image VAE"
+    },
+    {
+      "id": 5,
+      "type": "ResolutionSelector",
+      "pos": [
+        520,
+        340
+      ],
+      "size": [
+        390,
+        150
+      ],
+      "flags": {},
+      "order": 4,
+      "mode": 0,
+      "showAdvanced": true,
+      "inputs": [
+        {
+          "label": "aspect_ratio",
+          "name": "aspect_ratio",
+          "type": "COMBO",
+          "widget": {
+            "name": "aspect_ratio"
+          },
+          "link": null
+        },
+        {
+          "label": "megapixels",
+          "name": "megapixels",
+          "type": "FLOAT",
+          "widget": {
+            "name": "megapixels"
+          },
+          "link": null
+        },
+        {
+          "label": "multiple",
+          "name": "multiple",
+          "type": "INT",
+          "widget": {
+            "name": "multiple"
+          },
+          "link": null
+        },
+        {
+          "label": "preview",
+          "name": "preview",
+          "shape": 7,
+          "type": "RESOLUTION_PREVIEW",
+          "widget": {
+            "name": "preview"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "width",
+          "name": "width",
+          "type": "INT",
+          "links": [
+            10
+          ]
+        },
+        {
+          "label": "height",
+          "name": "height",
+          "type": "INT",
+          "links": [
+            11
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "ResolutionSelector",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "1:1 (Square)",
+        4,
+        32
+      ],
+      "widgets_values_named": {
+        "aspect_ratio": "1:1 (Square)",
+        "megapixels": 4,
+        "multiple": 32
+      },
+      "title": "5. Storyboard Canvas 1:1 / 4MP"
+    },
+    {
+      "id": 6,
+      "type": "MiniMaxH3ImageConditioning",
+      "pos": [
+        1010,
+        40
+      ],
+      "size": [
+        300.9720283934381,
+        196
+      ],
+      "flags": {},
+      "order": 5,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "clip",
+          "name": "clip",
+          "type": "CLIP",
+          "link": 7
+        },
+        {
+          "label": "vae",
+          "name": "vae",
+          "shape": 7,
+          "type": "VAE",
+          "link": 8
+        },
+        {
+          "label": "参考图 1 (Image-1)",
+          "name": "images.image_0",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        },
+        {
+          "label": "prompt",
+          "name": "prompt",
+          "type": "STRING",
+          "widget": {
+            "name": "prompt"
+          },
+          "link": 1
+        },
+        {
+          "label": "width",
+          "name": "width",
+          "type": "INT",
+          "widget": {
+            "name": "width"
+          },
+          "link": 10
+        },
+        {
+          "label": "height",
+          "name": "height",
+          "type": "INT",
+          "widget": {
+            "name": "height"
+          },
+          "link": 11
+        },
+        {
+          "label": "参考图 2 (Image-2)",
+          "name": "images.image_1",
+          "shape": 7,
+          "type": "IMAGE",
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "positive",
+          "name": "positive",
+          "type": "CONDITIONING",
+          "links": [
+            12
+          ]
+        },
+        {
+          "label": "LATENT",
+          "name": "LATENT",
+          "type": "LATENT",
+          "links": [
+            13
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "MiniMaxH3ImageConditioning",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {
+          "width": true,
+          "prompt": true,
+          "height": true
+        }
+      },
+      "widgets_values": [
+        "",
+        3104,
+        3104
+      ],
+      "widgets_values_named": {
+        "prompt": "",
+        "width": 3104,
+        "height": 3104
+      },
+      "title": "6. H3-Image Conditioning"
+    },
+    {
+      "id": 7,
+      "type": "BasicGuider",
+      "pos": [
+        1510,
+        40
+      ],
+      "size": [
+        320,
+        100
+      ],
+      "flags": {},
+      "order": 6,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "模型",
+          "name": "model",
+          "type": "MODEL",
+          "link": 6
+        },
+        {
+          "label": "条件",
+          "name": "conditioning",
+          "type": "CONDITIONING",
+          "link": 12
+        }
+      ],
+      "outputs": [
+        {
+          "label": "引导",
+          "name": "GUIDER",
+          "type": "GUIDER",
+          "links": [
+            15
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "BasicGuider",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "title": "7. BasicGuider（no CFG）"
+    },
+    {
+      "id": 8,
+      "type": "RandomNoise",
+      "pos": [
+        1510,
+        180
+      ],
+      "size": [
+        320,
+        100
+      ],
+      "flags": {},
+      "order": 7,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "noise_seed",
+          "name": "noise_seed",
+          "type": "INT",
+          "widget": {
+            "name": "noise_seed"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "噪波生成",
+          "name": "NOISE",
+          "type": "NOISE",
+          "links": [
+            14
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "RandomNoise",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        19960422,
+        "fixed"
+      ],
+      "widgets_values_named": {
+        "noise_seed": 19960422,
+        "control_after_generate": "fixed"
+      },
+      "title": "8. Random Noise"
+    },
+    {
+      "id": 9,
+      "type": "KSamplerSelect",
+      "pos": [
+        1510,
+        300
+      ],
+      "size": [
+        320,
+        80
+      ],
+      "flags": {},
+      "order": 8,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "sampler_name",
+          "name": "sampler_name",
+          "type": "COMBO",
+          "widget": {
+            "name": "sampler_name"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "采样器",
+          "name": "SAMPLER",
+          "type": "SAMPLER",
+          "links": [
+            16
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "KSamplerSelect",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "euler"
+      ],
+      "widgets_values_named": {
+        "sampler_name": "euler"
+      },
+      "title": "9. Euler Sampler"
+    },
+    {
+      "id": 10,
+      "type": "ManualSigmas",
+      "pos": [
+        1510,
+        420
+      ],
+      "size": [
+        325.4302734375,
+        58
+      ],
+      "flags": {
+        "collapsed": false
+      },
+      "order": 9,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "sigmas",
+          "name": "sigmas",
+          "type": "STRING",
+          "widget": {
+            "name": "sigmas"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "SIGMAS",
+          "name": "SIGMAS",
+          "type": "SIGMAS",
+          "links": [
+            17
+          ]
+        }
+      ],
+      "title": "10. Exact 6-step PDD Sigmas",
+      "properties": {
+        "Node name for S&R": "ManualSigmas",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "1.0, 0.9675236940383911, 0.8875485062599182, 0.75, 0.5327739119529724, 0.23200887441635132, 0.0"
+      ],
+      "widgets_values_named": {
+        "sigmas": "1.0, 0.9675236940383911, 0.8875485062599182, 0.75, 0.5327739119529724, 0.23200887441635132, 0.0"
+      }
+    },
+    {
+      "id": 11,
+      "type": "SamplerCustomAdvanced",
+      "pos": [
+        1880,
+        210
+      ],
+      "size": [
+        330,
+        326
+      ],
+      "flags": {},
+      "order": 10,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "噪波生成",
+          "name": "noise",
+          "type": "NOISE",
+          "link": 14
+        },
+        {
+          "label": "引导",
+          "name": "guider",
+          "type": "GUIDER",
+          "link": 15
+        },
+        {
+          "label": "采样器",
+          "name": "sampler",
+          "type": "SAMPLER",
+          "link": 16
+        },
+        {
+          "label": "Sigmas",
+          "name": "sigmas",
+          "type": "SIGMAS",
+          "link": 17
+        },
+        {
+          "label": "Latent",
+          "name": "latent_image",
+          "type": "LATENT",
+          "link": 13
+        }
+      ],
+      "outputs": [
+        {
+          "label": "输出",
+          "name": "output",
+          "type": "LATENT",
+          "links": [
+            18
+          ]
+        },
+        {
+          "label": "降噪输出",
+          "name": "denoised_output",
+          "type": "LATENT",
+          "links": []
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SamplerCustomAdvanced",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "title": "11. Sampler Custom Advanced"
+    },
+    {
+      "id": 12,
+      "type": "VAEDecode",
+      "pos": [
+        2250,
+        220
+      ],
+      "size": [
+        230,
+        95
+      ],
+      "flags": {},
+      "order": 11,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "Latent",
+          "name": "samples",
+          "type": "LATENT",
+          "link": 18
+        },
+        {
+          "label": "VAE",
+          "name": "vae",
+          "type": "VAE",
+          "link": 9
+        }
+      ],
+      "outputs": [
+        {
+          "label": "图像",
+          "name": "IMAGE",
+          "type": "IMAGE",
+          "links": [
+            19,
+            20
+          ]
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "VAEDecode",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "title": "12. VAEDecode"
+    },
+    {
+      "id": 13,
+      "type": "SaveImage",
+      "pos": [
+        2250,
+        430
+      ],
+      "size": [
+        734.6352842964266,
+        772.9964808958275
+      ],
+      "flags": {},
+      "order": 12,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 19
+        },
+        {
+          "label": "filename_prefix",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "image_urls",
+          "name": "image_urls",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "H3GIF/source/storyboard"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "H3GIF/source/storyboard"
+      },
+      "title": "13. 保存 H3 生成的宫格原图"
+    },
+    {
+      "id": 14,
+      "type": "StoryboardGridSplit",
+      "title": "14. H3GIF Grid Split（行列由 Director 连线）",
+      "pos": [
+        2640,
+        20
+      ],
+      "size": [
+        390,
+        650
+      ],
+      "flags": {},
+      "order": 13,
+      "mode": 0,
+      "inputs": [
+        {
+          "localized_name": "image",
+          "name": "image",
+          "type": "IMAGE",
+          "link": 20
+        },
+        {
+          "localized_name": "resolution_preset",
+          "name": "resolution_preset",
+          "type": "COMBO",
+          "widget": {
+            "name": "resolution_preset"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "columns",
+          "name": "columns",
+          "type": "INT",
+          "widget": {
+            "name": "columns"
+          },
+          "link": 3
+        },
+        {
+          "localized_name": "rows",
+          "name": "rows",
+          "type": "INT",
+          "widget": {
+            "name": "rows"
+          },
+          "link": 2
+        },
+        {
+          "localized_name": "gap_x",
+          "name": "gap_x",
+          "type": "INT",
+          "widget": {
+            "name": "gap_x"
+          },
+          "link": 4
+        },
+        {
+          "localized_name": "gap_y",
+          "name": "gap_y",
+          "type": "INT",
+          "widget": {
+            "name": "gap_y"
+          },
+          "link": 5
+        },
+        {
+          "localized_name": "offset_x",
+          "name": "offset_x",
+          "type": "INT",
+          "widget": {
+            "name": "offset_x"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "offset_y",
+          "name": "offset_y",
+          "type": "INT",
+          "widget": {
+            "name": "offset_y"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "reading_order",
+          "name": "reading_order",
+          "type": "COMBO",
+          "widget": {
+            "name": "reading_order"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "reverse",
+          "name": "reverse",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "reverse"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "margin_left",
+          "name": "margin_left",
+          "type": "INT",
+          "widget": {
+            "name": "margin_left"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "margin_right",
+          "name": "margin_right",
+          "type": "INT",
+          "widget": {
+            "name": "margin_right"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "margin_top",
+          "name": "margin_top",
+          "type": "INT",
+          "widget": {
+            "name": "margin_top"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "margin_bottom",
+          "name": "margin_bottom",
+          "type": "INT",
+          "widget": {
+            "name": "margin_bottom"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "tile_width",
+          "name": "tile_width",
+          "type": "INT",
+          "widget": {
+            "name": "tile_width"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "tile_height",
+          "name": "tile_height",
+          "type": "INT",
+          "widget": {
+            "name": "tile_height"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "frame_range",
+          "name": "frame_range",
+          "type": "STRING",
+          "widget": {
+            "name": "frame_range"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "skip_frames",
+          "name": "skip_frames",
+          "type": "STRING",
+          "widget": {
+            "name": "skip_frames"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "skip_blank_frames",
+          "name": "skip_blank_frames",
+          "type": "BOOLEAN",
+          "widget": {
+            "name": "skip_blank_frames"
+          },
+          "link": null
+        },
+        {
+          "localized_name": "blank_threshold",
+          "name": "blank_threshold",
+          "type": "FLOAT",
+          "widget": {
+            "name": "blank_threshold"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "name": "frames",
+          "type": "IMAGE",
+          "links": [
+            21,
+            22
+          ]
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "tile_width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "tile_height",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "detected_rows",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "detected_columns",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "detection_confidence",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "detection_success",
+          "type": "BOOLEAN",
+          "links": null
+        },
+        {
+          "name": "grid_info",
+          "type": "STRING",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StoryboardGridSplit"
+      },
+      "widgets_values": [
+        "Custom grid",
+        2,
+        2,
+        8,
+        8,
+        0,
+        0,
+        "Row-major",
+        false,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        "",
+        "",
+        false,
+        0.005
+      ],
+      "widgets_values_named": {
+        "resolution_preset": "Custom grid",
+        "columns": 2,
+        "rows": 2,
+        "gap_x": 8,
+        "gap_y": 8,
+        "offset_x": 0,
+        "offset_y": 0,
+        "reading_order": "Row-major",
+        "reverse": false,
+        "margin_left": 0,
+        "margin_right": 0,
+        "margin_top": 0,
+        "margin_bottom": 0,
+        "tile_width": 0,
+        "tile_height": 0,
+        "frame_range": "",
+        "skip_frames": "",
+        "skip_blank_frames": false,
+        "blank_threshold": 0.005
+      }
+    },
+    {
+      "id": 15,
+      "type": "SaveImage",
+      "pos": [
+        2640,
+        760
+      ],
+      "size": [
+        734.6352842964266,
+        772.9964808958275
+      ],
+      "flags": {},
+      "order": 14,
+      "mode": 0,
+      "inputs": [
+        {
+          "label": "图像",
+          "name": "images",
+          "type": "IMAGE",
+          "link": 21
+        },
+        {
+          "label": "filename_prefix",
+          "name": "filename_prefix",
+          "type": "STRING",
+          "widget": {
+            "name": "filename_prefix"
+          },
+          "link": null
+        }
+      ],
+      "outputs": [
+        {
+          "label": "image_urls",
+          "name": "image_urls",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "label": "images",
+          "name": "images",
+          "type": "IMAGE",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "SaveImage",
+        "cnr_id": "comfy-core",
+        "ver": "0.45.0",
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "H3GIF/frames/frame"
+      ],
+      "widgets_values_named": {
+        "filename_prefix": "H3GIF/frames/frame"
+      },
+      "title": "15. 分镜帧保存 / 预览（PNG）"
+    },
+    {
+      "id": 16,
+      "type": "StoryboardAnimation",
+      "title": "16. H3GIF Animation",
+      "pos": [
+        3100,
+        180
+      ],
+      "size": [
+        340,
+        340
+      ],
+      "flags": {},
+      "order": 15,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "frames",
+          "type": "IMAGE",
+          "link": 22
+        }
+      ],
+      "outputs": [
+        {
+          "name": "animation_frames",
+          "type": "IMAGE",
+          "links": [
+            23
+          ]
+        },
+        {
+          "name": "output_frame_count",
+          "type": "INT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StoryboardAnimation"
+      },
+      "widgets_values": [
+        "Ping-pong",
+        1,
+        "",
+        "",
+        "",
+        1,
+        1
+      ]
+    },
+    {
+      "id": 17,
+      "type": "StoryboardLoopOptimizer",
+      "title": "17. H3GIF Loop Optimizer",
+      "pos": [
+        3500,
+        180
+      ],
+      "size": [
+        360,
+        240
+      ],
+      "flags": {},
+      "order": 16,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "frames",
+          "type": "IMAGE",
+          "link": 23
+        }
+      ],
+      "outputs": [
+        {
+          "name": "optimized_frames",
+          "type": "IMAGE",
+          "links": [
+            24
+          ]
+        },
+        {
+          "name": "loop_similarity",
+          "type": "FLOAT",
+          "links": null
+        },
+        {
+          "name": "recommendation",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "endpoint_difference",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StoryboardLoopOptimizer"
+      },
+      "widgets_values": [
+        "Analyze only",
+        4,
+        0.02
+      ]
+    },
+    {
+      "id": 18,
+      "type": "StoryboardGIFExport",
+      "title": "18. H3GIF GIF Export",
+      "pos": [
+        3890,
+        160
+      ],
+      "size": [
+        360,
+        380
+      ],
+      "flags": {},
+      "order": 17,
+      "mode": 0,
+      "inputs": [
+        {
+          "name": "frames",
+          "type": "IMAGE",
+          "link": 24
+        }
+      ],
+      "outputs": [
+        {
+          "name": "saved_path",
+          "type": "STRING",
+          "links": null
+        },
+        {
+          "name": "frame_count",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "width",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "height",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "file_size_bytes",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "fps",
+          "type": "INT",
+          "links": null
+        },
+        {
+          "name": "effective_fps",
+          "type": "FLOAT",
+          "links": null
+        }
+      ],
+      "properties": {
+        "Node name for S&R": "StoryboardGIFExport"
+      },
+      "widgets_values": [
+        8,
+        0,
+        "Original",
+        "FLOYDSTEINBERG",
+        true,
+        "H3GIF/animation",
+        0,
+        256,
+        "White",
+        0,
+        0.0
+      ]
+    },
+    {
+      "id": 19,
+      "type": "MarkdownNote",
+      "title": "⚠ H3-Image → H3GIF 使用说明（先看）",
+      "pos": [
+        40,
+        -520
+      ],
+      "size": [
+        780,
+        460
+      ],
+      "flags": {},
+      "order": 18,
+      "mode": 0,
+      "inputs": [],
+      "outputs": [],
+      "properties": {
+        "widget_ue_connectable": {}
+      },
+      "widgets_values": [
+        "# H3-Image → 宫格 → GIF 一键流程\n\n**先填写 `H3GIF Storyboard Director`：**\n1. `scene_description`：整体场景、角色、环境和镜头风格。\n2. `panel_actions`：按顺序填写每个格子的动作，一行一个。\n3. `rows` / `columns`：希望 H3 生成的行列数，默认 2×2。\n4. `gutter_pixels`：宫格黑边宽度，默认 8 像素。\n\n**执行顺序：**\nStoryboard Director 生成严格宫格提示词 → H3-Image 精准 Sigma 采样 → VAEDecode → 保存宫格原图 → H3GIF 切割 → 保存分镜帧 → Animation → Loop Optimizer → GIF Export。\n\n**注意：**\n- H3-Image 在 4MP、6 步 Sigma 下也可能需要较长时间；8GB 显存建议先用 2×2。\n- AI 不保证 100% 严格按行列生成。若切割不准，优先调整 Director 提示词、rows/columns、gutter_pixels 和四个 margin。\n- 宫格原图在 `output/H3GIF/source/`，分镜帧在 `output/H3GIF/frames/`，GIF 在 `output/H3GIF/`。\n- 必须使用正确的 H3-Image 模型：UNET `minimax_h3_image_pruned_int8_convrot`、CLIP `qwen3vl_32b_minimax_h3_nvfp4_awq` 且 type=`minimax`、VAE `minimax_h3_image_vae_fp16`。\n\n详细教程：插件根目录 `使用说明.md`。"
+      ],
+      "widgets_values_named": {
+        "text": "# H3-Image → 宫格 → GIF 一键流程\n\n**先填写 `H3GIF Storyboard Director`：**\n1. `scene_description`：整体场景、角色、环境和镜头风格。\n2. `panel_actions`：按顺序填写每个格子的动作，一行一个。\n3. `rows` / `columns`：希望 H3 生成的行列数，默认 2×2。\n4. `gutter_pixels`：宫格黑边宽度，默认 8 像素。\n\n**执行顺序：**\nStoryboard Director 生成严格宫格提示词 → H3-Image 精准 Sigma 采样 → VAEDecode → 保存宫格原图 → H3GIF 切割 → 保存分镜帧 → Animation → Loop Optimizer → GIF Export。\n\n**注意：**\n- H3-Image 在 4MP、6 步 Sigma 下也可能需要较长时间；8GB 显存建议先用 2×2。\n- AI 不保证 100% 严格按行列生成。若切割不准，优先调整 Director 提示词、rows/columns、gutter_pixels 和四个 margin。\n- 宫格原图在 `output/H3GIF/source/`，分镜帧在 `output/H3GIF/frames/`，GIF 在 `output/H3GIF/`。\n- 必须使用正确的 H3-Image 模型：UNET `minimax_h3_image_pruned_int8_convrot`、CLIP `qwen3vl_32b_minimax_h3_nvfp4_awq` 且 type=`minimax`、VAE `minimax_h3_image_vae_fp16`。\n\n详细教程：插件根目录 `使用说明.md`。"
+      },
+      "color": "#222",
+      "bgcolor": "#000"
+    }
+  ],
+  "links": [
+    [
+      1,
+      1,
+      0,
+      6,
+      3,
+      "STRING"
+    ],
+    [
+      2,
+      1,
+      1,
+      14,
+      3,
+      "INT"
+    ],
+    [
+      3,
+      1,
+      2,
+      14,
+      2,
+      "INT"
+    ],
+    [
+      4,
+      1,
+      3,
+      14,
+      4,
+      "INT"
+    ],
+    [
+      5,
+      1,
+      3,
+      14,
+      5,
+      "INT"
+    ],
+    [
+      6,
+      2,
+      0,
+      7,
+      0,
+      "MODEL"
+    ],
+    [
+      7,
+      3,
+      0,
+      6,
+      0,
+      "CLIP"
+    ],
+    [
+      8,
+      4,
+      0,
+      6,
+      1,
+      "VAE"
+    ],
+    [
+      9,
+      4,
+      0,
+      12,
+      1,
+      "VAE"
+    ],
+    [
+      10,
+      5,
+      0,
+      6,
+      4,
+      "INT"
+    ],
+    [
+      11,
+      5,
+      1,
+      6,
+      5,
+      "INT"
+    ],
+    [
+      12,
+      6,
+      0,
+      7,
+      1,
+      "CONDITIONING"
+    ],
+    [
+      13,
+      6,
+      1,
+      11,
+      4,
+      "LATENT"
+    ],
+    [
+      14,
+      8,
+      0,
+      11,
+      0,
+      "NOISE"
+    ],
+    [
+      15,
+      7,
+      0,
+      11,
+      1,
+      "GUIDER"
+    ],
+    [
+      16,
+      9,
+      0,
+      11,
+      2,
+      "SAMPLER"
+    ],
+    [
+      17,
+      10,
+      0,
+      11,
+      3,
+      "SIGMAS"
+    ],
+    [
+      18,
+      11,
+      0,
+      12,
+      0,
+      "LATENT"
+    ],
+    [
+      19,
+      12,
+      0,
+      13,
+      0,
+      "IMAGE"
+    ],
+    [
+      20,
+      12,
+      0,
+      14,
+      0,
+      "IMAGE"
+    ],
+    [
+      21,
+      14,
+      0,
+      15,
+      0,
+      "IMAGE"
+    ],
+    [
+      22,
+      14,
+      0,
+      16,
+      0,
+      "IMAGE"
+    ],
+    [
+      23,
+      16,
+      0,
+      17,
+      0,
+      "IMAGE"
+    ],
+    [
+      24,
+      17,
+      0,
+      18,
+      0,
+      "IMAGE"
+    ]
+  ],
+  "groups": [
+    {
+      "id": 1,
+      "title": "1. H3GIF Director + H3-Image 精准 Sigma 生成",
+      "bounding": [
+        20,
+        -280,
+        2480,
+        900
+      ],
+      "color": "#3f789e",
+      "flags": {}
+    },
+    {
+      "id": 2,
+      "title": "2. 宫格切割与分镜帧保存",
+      "bounding": [
+        2600,
+        -20,
+        470,
+        1300
+      ],
+      "color": "#8A8",
+      "flags": {}
+    },
+    {
+      "id": 3,
+      "title": "3. 动画、循环优化与 GIF 导出",
+      "bounding": [
+        3070,
+        -20,
+        1240,
+        700
+      ],
+      "color": "#b58b2a",
+      "flags": {}
+    }
+  ],
+  "config": {},
+  "extra": {
+    "frontendVersion": "1.58.5",
+    "ds": {
+      "scale": 0.5,
+      "offset": [
+        250,
+        500
+      ]
+    }
+  },
+  "version": 0.4
+}

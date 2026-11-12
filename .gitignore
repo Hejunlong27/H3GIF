@@ -1,0 +1,17 @@
+__pycache__/
+*.py[cod]
+*.pyo
+.pytest_cache/
+.coverage
+htmlcov/
+.venv/
+venv/
+output/
+test-output/
+*.gif
+.DS_Store
+Thumbs.db
+backups/
+test-artifacts/
+*.zip
+*.log
