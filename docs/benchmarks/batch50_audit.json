@@ -1,0 +1,136 @@
+{
+  "total": 50,
+  "passed": 50,
+  "failed": 0,
+  "errors": [],
+  "source_size_all_2048": true,
+  "frames_all_9": true,
+  "gif_all_16_frames": true,
+  "gif_all_infinite_loop": true,
+  "average_gif_mib": 4.2,
+  "total_gif_mib": 209.998,
+  "average_seconds": 50.001,
+  "requested_vs_effective_fps": {
+    "4": [
+      4.0
+    ],
+    "6": [
+      6.25
+    ],
+    "8": [
+      8.333
+    ],
+    "10": [
+      10.0
+    ],
+    "12": [
+      12.5
+    ]
+  },
+  "by_style": {
+    "anime_cel": {
+      "count": 5,
+      "avg_seconds": 50.12,
+      "avg_gif_mib": 3.92
+    },
+    "cinematic_3d": {
+      "count": 5,
+      "avg_seconds": 52.1,
+      "avg_gif_mib": 3.97
+    },
+    "claymation": {
+      "count": 5,
+      "avg_seconds": 50.07,
+      "avg_gif_mib": 4.09
+    },
+    "cyberpunk_comic": {
+      "count": 5,
+      "avg_seconds": 49.1,
+      "avg_gif_mib": 4.44
+    },
+    "film_noir": {
+      "count": 5,
+      "avg_seconds": 50.1,
+      "avg_gif_mib": 4.69
+    },
+    "ink_wash": {
+      "count": 5,
+      "avg_seconds": 50.07,
+      "avg_gif_mib": 4.49
+    },
+    "low_poly": {
+      "count": 5,
+      "avg_seconds": 50.08,
+      "avg_gif_mib": 3.8
+    },
+    "oil_painting": {
+      "count": 5,
+      "avg_seconds": 49.14,
+      "avg_gif_mib": 4.87
+    },
+    "paper_cut": {
+      "count": 5,
+      "avg_seconds": 49.14,
+      "avg_gif_mib": 3.81
+    },
+    "watercolor": {
+      "count": 5,
+      "avg_seconds": 50.09,
+      "avg_gif_mib": 3.91
+    }
+  },
+  "by_motion": {
+    "martial_arts": {
+      "count": 10,
+      "avg_seconds": 50.09,
+      "avg_gif_mib": 4.29
+    },
+    "partner_dance": {
+      "count": 10,
+      "avg_seconds": 50.08,
+      "avg_gif_mib": 4.54
+    },
+    "spin_jump": {
+      "count": 10,
+      "avg_seconds": 49.61,
+      "avg_gif_mib": 3.41
+    },
+    "sprint": {
+      "count": 10,
+      "avg_seconds": 49.12,
+      "avg_gif_mib": 3.77
+    },
+    "street_walk": {
+      "count": 10,
+      "avg_seconds": 51.1,
+      "avg_gif_mib": 4.98
+    }
+  },
+  "by_requested_fps": {
+    "4": {
+      "count": 10,
+      "avg_seconds": 50.6,
+      "avg_gif_mib": 4.21
+    },
+    "6": {
+      "count": 10,
+      "avg_seconds": 50.1,
+      "avg_gif_mib": 3.86
+    },
+    "8": {
+      "count": 10,
+      "avg_seconds": 49.6,
+      "avg_gif_mib": 4.68
+    },
+    "10": {
+      "count": 10,
+      "avg_seconds": 49.61,
+      "avg_gif_mib": 3.95
+    },
+    "12": {
+      "count": 10,
+      "avg_seconds": 50.09,
+      "avg_gif_mib": 4.3
+    }
+  }
+}

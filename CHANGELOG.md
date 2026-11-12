@@ -10,6 +10,11 @@ All notable changes to H3GIF are documented here.
 - GIF metadata now reports the effective rate read back from the written file instead of echoing the requested timing.
 - Added the new `effective_fps` FLOAT output while preserving all existing output indices.
 
+### Documentation
+
+- Added a complete 50-case benchmark record under `docs/benchmarks/`.
+- Included 50-case and per-style/per-motion comparison sheets plus five compressed motion previews.
+
 ### Validated
 
 - 50/50 batch matrix passed: 10 art styles × 5 motion profiles × FPS values 4/6/8/10/12.

@@ -245,6 +245,35 @@ python -m unittest discover -s tests -v
 
 测试使用 CPU Tensor 和临时输出目录，不需要启动 ComfyUI、模型文件或 GPU。
 
+## 50 组对比测试：50/50 通过
+
+已在 ComfyUI v0.45.2、8GB NVIDIA RTX 4060 Laptop GPU 环境完成完整对比矩阵：
+
+- 10 种画风
+- 5 类动作：街道行走、冲刺、双人舞、武术、旋转跳跃
+- 5 档请求 FPS：4、6、8、10、12
+- 共 50 组
+- 每组 3×3 宫格、9 张分镜帧、16 帧 Ping-pong GIF
+
+结果：
+
+- 技术验收：**50/50 通过**
+- 平均生成耗时：**50.001 秒/组**
+- 平均 GIF：**4.2 MiB**
+- 50 张宫格原图全部为 2048×2048
+- GIF 10ms 时间量化后的实际帧率：4.0、6.25、8.333、10.0、12.5
+
+![50组测试总览](docs/benchmarks/batch50_all_variants.jpg)
+
+完整记录与对比：
+
+- [批测报告](docs/benchmarks/README.md)
+- [CSV 结果](docs/benchmarks/batch50_report.csv)
+- [画风对照图](docs/benchmarks/batch50_style_sheet.jpg)
+- [动作对照图](docs/benchmarks/batch50_motion_sheet.jpg)
+
+原始全分辨率媒体约数百 MB，因此不提交到 Git；仓库保留测试清单、种子、逐组结果和压缩动态预览，可复现和审查本次测试。
+
 ## 兼容性与限制
 
 已在本地 ComfyUI 环境验证：

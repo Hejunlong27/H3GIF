@@ -243,6 +243,35 @@ python -m unittest discover -s tests -v
 
 The tests use CPU tensors and temporary output directories. They do not require a running ComfyUI server, model files or a GPU.
 
+## Batch benchmark: 50/50 passed
+
+A full comparison matrix was run on ComfyUI v0.45.2 with an 8 GB NVIDIA RTX 4060 Laptop GPU:
+
+- 10 visual styles
+- 5 motion profiles: street walk, sprint, partner dance, martial arts, spin/jump
+- 5 requested FPS values: 4, 6, 8, 10, 12
+- 50 cases total
+- 3×3 contact sheets, 9 split frames and 16-frame Ping-Pong GIFs
+
+Results:
+
+- Technical validation: **50/50 passed**
+- Average generation time: **50.001 seconds**
+- Average GIF size: **4.2 MiB**
+- All 50 source sheets: 2048×2048
+- Effective GIF FPS after 10 ms timing quantization: 4.0, 6.25, 8.333, 10.0 and 12.5
+
+![All 50 batch variants](docs/benchmarks/batch50_all_variants.jpg)
+
+Full records and comparisons:
+
+- [Benchmark report](docs/benchmarks/README.md)
+- [CSV results](docs/benchmarks/batch50_report.csv)
+- [Style comparison](docs/benchmarks/batch50_style_sheet.jpg)
+- [Motion comparison](docs/benchmarks/batch50_motion_sheet.jpg)
+
+The original full-resolution media totals hundreds of MB and is intentionally excluded from Git. The manifest, per-case report, seeds and compressed previews are included for review and reproduction.
+
 ## Compatibility and limitations
 
 Verified against the local ComfyUI environment:

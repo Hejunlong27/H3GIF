@@ -1,0 +1,1752 @@
+{
+  "01": {
+    "id": "01",
+    "slug": "v01_cinematic_3d_street_walk_4fps",
+    "style": "cinematic_3d",
+    "motion": "street_walk",
+    "fps": 4,
+    "seed": 20261112,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:42:14",
+    "status": "success",
+    "prompt_id": "aa10fa4d-3535-417f-b4e7-8c668eb98410",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v01_cinematic_3d_street_walk_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v01_cinematic_3d_street_walk_4fps/animation_1794415392211797600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v01_cinematic_3d_street_walk_4fps/animation_1794415392211797600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.39 MiB"
+    ],
+    "wall_seconds": 60.096,
+    "completed_at": "2026-11-12T00:43:14"
+  },
+  "02": {
+    "id": "02",
+    "slug": "v02_anime_cel_street_walk_6fps",
+    "style": "anime_cel",
+    "motion": "street_walk",
+    "fps": 6,
+    "seed": 20261113,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:43:15",
+    "status": "success",
+    "prompt_id": "e660aa45-657a-41b9-8385-4f0e57f620ea",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v02_anime_cel_street_walk_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v02_anime_cel_street_walk_6fps/animation_1794415445479688100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v02_anime_cel_street_walk_6fps/animation_1794415445479688100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.56 MiB"
+    ],
+    "wall_seconds": 50.353,
+    "completed_at": "2026-11-12T00:44:06"
+  },
+  "03": {
+    "id": "03",
+    "slug": "v03_ink_wash_street_walk_8fps",
+    "style": "ink_wash",
+    "motion": "street_walk",
+    "fps": 8,
+    "seed": 20261114,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:44:07",
+    "status": "success",
+    "prompt_id": "1fb6ef6d-a02f-451f-ac1e-eb836fa7910d",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v03_ink_wash_street_walk_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v03_ink_wash_street_walk_8fps/animation_1794415495846906600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v03_ink_wash_street_walk_8fps/animation_1794415495846906600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 5.11 MiB"
+    ],
+    "wall_seconds": 50.056,
+    "completed_at": "2026-11-12T00:44:57"
+  },
+  "04": {
+    "id": "04",
+    "slug": "v04_claymation_street_walk_10fps",
+    "style": "claymation",
+    "motion": "street_walk",
+    "fps": 10,
+    "seed": 20261115,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:44:58",
+    "status": "success",
+    "prompt_id": "7802af9d-2212-400c-be6c-66804a7c0cbc",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v04_claymation_street_walk_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v04_claymation_street_walk_10fps/animation_1794415545698991400.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v04_claymation_street_walk_10fps/animation_1794415545698991400.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.92 MiB"
+    ],
+    "wall_seconds": 50.057,
+    "completed_at": "2026-11-12T00:45:48"
+  },
+  "05": {
+    "id": "05",
+    "slug": "v05_watercolor_street_walk_12fps",
+    "style": "watercolor",
+    "motion": "street_walk",
+    "fps": 12,
+    "seed": 20261116,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:45:49",
+    "status": "success",
+    "prompt_id": "ba42d660-32c3-46c2-94c1-ebbf5f6217af",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v05_watercolor_street_walk_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v05_watercolor_street_walk_12fps/animation_1794415596039261800.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v05_watercolor_street_walk_12fps/animation_1794415596039261800.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 5.32 MiB"
+    ],
+    "wall_seconds": 50.072,
+    "completed_at": "2026-11-12T00:46:39"
+  },
+  "06": {
+    "id": "06",
+    "slug": "v06_cyberpunk_comic_street_walk_4fps",
+    "style": "cyberpunk_comic",
+    "motion": "street_walk",
+    "fps": 4,
+    "seed": 20261117,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:46:40",
+    "status": "success",
+    "prompt_id": "8f47b637-b2c2-46be-8de4-8472d4e6a2bb",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v06_cyberpunk_comic_street_walk_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v06_cyberpunk_comic_street_walk_4fps/animation_1794415646898502100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v06_cyberpunk_comic_street_walk_4fps/animation_1794415646898502100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 5.66 MiB"
+    ],
+    "wall_seconds": 50.086,
+    "completed_at": "2026-11-12T00:47:30"
+  },
+  "07": {
+    "id": "07",
+    "slug": "v07_low_poly_street_walk_6fps",
+    "style": "low_poly",
+    "motion": "street_walk",
+    "fps": 6,
+    "seed": 20261118,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:47:31",
+    "status": "success",
+    "prompt_id": "877c5b02-86e3-4eca-835e-4fc3c163e72b",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v07_low_poly_street_walk_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v07_low_poly_street_walk_6fps/animation_1794415697592729300.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v07_low_poly_street_walk_6fps/animation_1794415697592729300.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.23 MiB"
+    ],
+    "wall_seconds": 50.087,
+    "completed_at": "2026-11-12T00:48:21"
+  },
+  "08": {
+    "id": "08",
+    "slug": "v08_oil_painting_street_walk_8fps",
+    "style": "oil_painting",
+    "motion": "street_walk",
+    "fps": 8,
+    "seed": 20261119,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:48:22",
+    "status": "success",
+    "prompt_id": "2b1931a9-817f-436c-89a0-6426b121b425",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v08_oil_painting_street_walk_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v08_oil_painting_street_walk_8fps/animation_1794415748015838900.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v08_oil_painting_street_walk_8fps/animation_1794415748015838900.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 6.09 MiB"
+    ],
+    "wall_seconds": 50.049,
+    "completed_at": "2026-11-12T00:49:12"
+  },
+  "09": {
+    "id": "09",
+    "slug": "v09_paper_cut_street_walk_10fps",
+    "style": "paper_cut",
+    "motion": "street_walk",
+    "fps": 10,
+    "seed": 20261120,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:49:13",
+    "status": "success",
+    "prompt_id": "e8b22ab1-db9f-408e-aaf2-a349766f471d",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v09_paper_cut_street_walk_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v09_paper_cut_street_walk_10fps/animation_1794415799644275800.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v09_paper_cut_street_walk_10fps/animation_1794415799644275800.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.05 MiB"
+    ],
+    "wall_seconds": 50.096,
+    "completed_at": "2026-11-12T00:50:03"
+  },
+  "10": {
+    "id": "10",
+    "slug": "v10_film_noir_street_walk_12fps",
+    "style": "film_noir",
+    "motion": "street_walk",
+    "fps": 12,
+    "seed": 20261121,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:50:04",
+    "status": "success",
+    "prompt_id": "2c82d449-6c03-4624-b2c9-86d85dba00bc",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v10_film_noir_street_walk_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v10_film_noir_street_walk_12fps/animation_1794415850471257500.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v10_film_noir_street_walk_12fps/animation_1794415850471257500.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 5.49 MiB"
+    ],
+    "wall_seconds": 50.072,
+    "completed_at": "2026-11-12T00:50:54"
+  },
+  "11": {
+    "id": "11",
+    "slug": "v11_cinematic_3d_sprint_4fps",
+    "style": "cinematic_3d",
+    "motion": "sprint",
+    "fps": 4,
+    "seed": 20261122,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:50:55",
+    "status": "success",
+    "prompt_id": "aeb1f190-c332-480e-ac1c-02816cfa7c81",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v11_cinematic_3d_sprint_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v11_cinematic_3d_sprint_4fps/animation_1794415901388301800.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v11_cinematic_3d_sprint_4fps/animation_1794415901388301800.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.35 MiB"
+    ],
+    "wall_seconds": 50.127,
+    "completed_at": "2026-11-12T00:51:46"
+  },
+  "12": {
+    "id": "12",
+    "slug": "v12_anime_cel_sprint_6fps",
+    "style": "anime_cel",
+    "motion": "sprint",
+    "fps": 6,
+    "seed": 20261123,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:51:47",
+    "status": "success",
+    "prompt_id": "cc93fd0f-5dcb-4f7d-9e0d-c73c5af2b9cf",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v12_anime_cel_sprint_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v12_anime_cel_sprint_6fps/animation_1794415952596270700.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v12_anime_cel_sprint_6fps/animation_1794415952596270700.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.59 MiB"
+    ],
+    "wall_seconds": 50.083,
+    "completed_at": "2026-11-12T00:52:37"
+  },
+  "13": {
+    "id": "13",
+    "slug": "v13_ink_wash_sprint_8fps",
+    "style": "ink_wash",
+    "motion": "sprint",
+    "fps": 8,
+    "seed": 20261124,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:52:38",
+    "status": "success",
+    "prompt_id": "2d787922-3329-471a-97b9-394ecb6759af",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v13_ink_wash_sprint_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v13_ink_wash_sprint_8fps/animation_1794416003700106800.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v13_ink_wash_sprint_8fps/animation_1794416003700106800.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.00 MiB"
+    ],
+    "wall_seconds": 50.071,
+    "completed_at": "2026-11-12T00:53:28"
+  },
+  "14": {
+    "id": "14",
+    "slug": "v14_claymation_sprint_10fps",
+    "style": "claymation",
+    "motion": "sprint",
+    "fps": 10,
+    "seed": 20261125,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:53:29",
+    "status": "success",
+    "prompt_id": "c62ae71f-415a-428b-a5d1-6886f2cdd362",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v14_claymation_sprint_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v14_claymation_sprint_10fps/animation_1794416054440236700.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v14_claymation_sprint_10fps/animation_1794416054440236700.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.31 MiB"
+    ],
+    "wall_seconds": 50.099,
+    "completed_at": "2026-11-12T00:54:19"
+  },
+  "15": {
+    "id": "15",
+    "slug": "v15_watercolor_sprint_12fps",
+    "style": "watercolor",
+    "motion": "sprint",
+    "fps": 12,
+    "seed": 20261126,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:54:20",
+    "status": "success",
+    "prompt_id": "61046668-8613-43cb-adc4-165e9fb5dbf8",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v15_watercolor_sprint_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v15_watercolor_sprint_12fps/animation_1794416105263753600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v15_watercolor_sprint_12fps/animation_1794416105263753600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.89 MiB"
+    ],
+    "wall_seconds": 50.088,
+    "completed_at": "2026-11-12T00:55:10"
+  },
+  "16": {
+    "id": "16",
+    "slug": "v16_cyberpunk_comic_sprint_4fps",
+    "style": "cyberpunk_comic",
+    "motion": "sprint",
+    "fps": 4,
+    "seed": 20261127,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:55:11",
+    "status": "success",
+    "prompt_id": "c6772bc1-2e94-4a39-ab9a-dcf1dd76d2c8",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v16_cyberpunk_comic_sprint_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v16_cyberpunk_comic_sprint_4fps/animation_1794416155858959000.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v16_cyberpunk_comic_sprint_4fps/animation_1794416155858959000.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.65 MiB"
+    ],
+    "wall_seconds": 45.226,
+    "completed_at": "2026-11-12T00:55:56"
+  },
+  "17": {
+    "id": "17",
+    "slug": "v17_low_poly_sprint_6fps",
+    "style": "low_poly",
+    "motion": "sprint",
+    "fps": 6,
+    "seed": 20261128,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:55:57",
+    "status": "success",
+    "prompt_id": "6aaf8358-e817-4a23-8d42-d9d0128f9848",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v17_low_poly_sprint_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v17_low_poly_sprint_6fps/animation_1794416202844185500.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v17_low_poly_sprint_6fps/animation_1794416202844185500.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.56 MiB"
+    ],
+    "wall_seconds": 50.089,
+    "completed_at": "2026-11-12T00:56:47"
+  },
+  "18": {
+    "id": "18",
+    "slug": "v18_oil_painting_sprint_8fps",
+    "style": "oil_painting",
+    "motion": "sprint",
+    "fps": 8,
+    "seed": 20261129,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:56:48",
+    "status": "success",
+    "prompt_id": "8cfc0474-627c-4e5b-b10e-acd302264094",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v18_oil_painting_sprint_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v18_oil_painting_sprint_8fps/animation_1794416253135543600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v18_oil_painting_sprint_8fps/animation_1794416253135543600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.90 MiB"
+    ],
+    "wall_seconds": 45.3,
+    "completed_at": "2026-11-12T00:57:34"
+  },
+  "19": {
+    "id": "19",
+    "slug": "v19_paper_cut_sprint_10fps",
+    "style": "paper_cut",
+    "motion": "sprint",
+    "fps": 10,
+    "seed": 20261130,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:57:35",
+    "status": "success",
+    "prompt_id": "69c5fce6-b704-4594-806d-060a1c2e72cc",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v19_paper_cut_sprint_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v19_paper_cut_sprint_10fps/animation_1794416299864489900.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v19_paper_cut_sprint_10fps/animation_1794416299864489900.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.10 MiB"
+    ],
+    "wall_seconds": 50.058,
+    "completed_at": "2026-11-12T00:58:25"
+  },
+  "20": {
+    "id": "20",
+    "slug": "v20_film_noir_sprint_12fps",
+    "style": "film_noir",
+    "motion": "sprint",
+    "fps": 12,
+    "seed": 20261131,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:58:26",
+    "status": "success",
+    "prompt_id": "6caceed9-f439-4d5a-992f-8bbfccf2ddc7",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v20_film_noir_sprint_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v20_film_noir_sprint_12fps/animation_1794416351124200200.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v20_film_noir_sprint_12fps/animation_1794416351124200200.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 5.39 MiB"
+    ],
+    "wall_seconds": 50.087,
+    "completed_at": "2026-11-12T00:59:16"
+  },
+  "21": {
+    "id": "21",
+    "slug": "v21_cinematic_3d_partner_dance_4fps",
+    "style": "cinematic_3d",
+    "motion": "partner_dance",
+    "fps": 4,
+    "seed": 20261132,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T00:59:17",
+    "status": "success",
+    "prompt_id": "a092254f-d075-4089-ae70-1bdc669c5905",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v21_cinematic_3d_partner_dance_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v21_cinematic_3d_partner_dance_4fps/animation_1794416403610234100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v21_cinematic_3d_partner_dance_4fps/animation_1794416403610234100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.78 MiB"
+    ],
+    "wall_seconds": 50.079,
+    "completed_at": "2026-11-12T01:00:07"
+  },
+  "22": {
+    "id": "22",
+    "slug": "v22_anime_cel_partner_dance_6fps",
+    "style": "anime_cel",
+    "motion": "partner_dance",
+    "fps": 6,
+    "seed": 20261133,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:00:08",
+    "status": "success",
+    "prompt_id": "11643810-091a-4131-abee-0c07324154b0",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v22_anime_cel_partner_dance_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v22_anime_cel_partner_dance_6fps/animation_1794416454631011800.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v22_anime_cel_partner_dance_6fps/animation_1794416454631011800.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.25 MiB"
+    ],
+    "wall_seconds": 50.056,
+    "completed_at": "2026-11-12T01:00:58"
+  },
+  "23": {
+    "id": "23",
+    "slug": "v23_ink_wash_partner_dance_8fps",
+    "style": "ink_wash",
+    "motion": "partner_dance",
+    "fps": 8,
+    "seed": 20261134,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:00:59",
+    "status": "success",
+    "prompt_id": "28f1d392-151b-496a-a643-92de1899ccfc",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v23_ink_wash_partner_dance_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v23_ink_wash_partner_dance_8fps/animation_1794416506775875200.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v23_ink_wash_partner_dance_8fps/animation_1794416506775875200.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.78 MiB"
+    ],
+    "wall_seconds": 50.082,
+    "completed_at": "2026-11-12T01:01:49"
+  },
+  "24": {
+    "id": "24",
+    "slug": "v24_claymation_partner_dance_10fps",
+    "style": "claymation",
+    "motion": "partner_dance",
+    "fps": 10,
+    "seed": 20261135,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:01:50",
+    "status": "success",
+    "prompt_id": "427dacd6-96b7-48d0-8196-68e98686d5af",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v24_claymation_partner_dance_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v24_claymation_partner_dance_10fps/animation_1794416556435288300.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v24_claymation_partner_dance_10fps/animation_1794416556435288300.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.52 MiB"
+    ],
+    "wall_seconds": 50.104,
+    "completed_at": "2026-11-12T01:02:40"
+  },
+  "25": {
+    "id": "25",
+    "slug": "v25_watercolor_partner_dance_12fps",
+    "style": "watercolor",
+    "motion": "partner_dance",
+    "fps": 12,
+    "seed": 20261136,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:02:41",
+    "status": "success",
+    "prompt_id": "649ceffe-516d-40e9-b725-573ba2f46ac4",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v25_watercolor_partner_dance_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v25_watercolor_partner_dance_12fps/animation_1794416607498694600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v25_watercolor_partner_dance_12fps/animation_1794416607498694600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.58 MiB"
+    ],
+    "wall_seconds": 50.083,
+    "completed_at": "2026-11-12T01:03:31"
+  },
+  "26": {
+    "id": "26",
+    "slug": "v26_cyberpunk_comic_partner_dance_4fps",
+    "style": "cyberpunk_comic",
+    "motion": "partner_dance",
+    "fps": 4,
+    "seed": 20261137,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:03:32",
+    "status": "success",
+    "prompt_id": "e8f9ec59-93f1-4a98-b98a-9de57d93c1a9",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v26_cyberpunk_comic_partner_dance_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v26_cyberpunk_comic_partner_dance_4fps/animation_1794416659268633700.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v26_cyberpunk_comic_partner_dance_4fps/animation_1794416659268633700.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.83 MiB"
+    ],
+    "wall_seconds": 50.086,
+    "completed_at": "2026-11-12T01:04:22"
+  },
+  "27": {
+    "id": "27",
+    "slug": "v27_low_poly_partner_dance_6fps",
+    "style": "low_poly",
+    "motion": "partner_dance",
+    "fps": 6,
+    "seed": 20261138,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:04:23",
+    "status": "success",
+    "prompt_id": "a843c43c-a8e5-44d0-a43d-ff94d912e79c",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v27_low_poly_partner_dance_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v27_low_poly_partner_dance_6fps/animation_1794416709898795500.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v27_low_poly_partner_dance_6fps/animation_1794416709898795500.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.03 MiB"
+    ],
+    "wall_seconds": 50.102,
+    "completed_at": "2026-11-12T01:05:13"
+  },
+  "28": {
+    "id": "28",
+    "slug": "v28_oil_painting_partner_dance_8fps",
+    "style": "oil_painting",
+    "motion": "partner_dance",
+    "fps": 8,
+    "seed": 20261139,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:05:14",
+    "status": "success",
+    "prompt_id": "78e131b7-8080-4a52-83dd-d1848c34e567",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v28_oil_painting_partner_dance_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v28_oil_painting_partner_dance_8fps/animation_1794416760402765100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v28_oil_painting_partner_dance_8fps/animation_1794416760402765100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 5.09 MiB"
+    ],
+    "wall_seconds": 50.096,
+    "completed_at": "2026-11-12T01:06:04"
+  },
+  "29": {
+    "id": "29",
+    "slug": "v29_paper_cut_partner_dance_10fps",
+    "style": "paper_cut",
+    "motion": "partner_dance",
+    "fps": 10,
+    "seed": 20261140,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:06:05",
+    "status": "success",
+    "prompt_id": "003f34de-69b4-4b36-ade5-2f5a1db57fba",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v29_paper_cut_partner_dance_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v29_paper_cut_partner_dance_10fps/animation_1794416811521847000.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v29_paper_cut_partner_dance_10fps/animation_1794416811521847000.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.56 MiB"
+    ],
+    "wall_seconds": 50.052,
+    "completed_at": "2026-11-12T01:06:55"
+  },
+  "30": {
+    "id": "30",
+    "slug": "v30_film_noir_partner_dance_12fps",
+    "style": "film_noir",
+    "motion": "partner_dance",
+    "fps": 12,
+    "seed": 20261141,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:06:56",
+    "status": "success",
+    "prompt_id": "954c2f20-4a1f-4181-a059-a99f6506e67c",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v30_film_noir_partner_dance_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v30_film_noir_partner_dance_12fps/animation_1794416862470357600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v30_film_noir_partner_dance_12fps/animation_1794416862470357600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.98 MiB"
+    ],
+    "wall_seconds": 50.073,
+    "completed_at": "2026-11-12T01:07:47"
+  },
+  "31": {
+    "id": "31",
+    "slug": "v31_cinematic_3d_martial_arts_4fps",
+    "style": "cinematic_3d",
+    "motion": "martial_arts",
+    "fps": 4,
+    "seed": 20261142,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:07:48",
+    "status": "success",
+    "prompt_id": "1ee399d4-0a98-4b35-9dab-47d9cc6a4cf0",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v31_cinematic_3d_martial_arts_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v31_cinematic_3d_martial_arts_4fps/animation_1794416913406303300.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v31_cinematic_3d_martial_arts_4fps/animation_1794416913406303300.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.89 MiB"
+    ],
+    "wall_seconds": 50.074,
+    "completed_at": "2026-11-12T01:08:38"
+  },
+  "32": {
+    "id": "32",
+    "slug": "v32_anime_cel_martial_arts_6fps",
+    "style": "anime_cel",
+    "motion": "martial_arts",
+    "fps": 6,
+    "seed": 20261143,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:08:39",
+    "status": "success",
+    "prompt_id": "50dc640f-a58a-44ab-ba38-f13c6e7392ab",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v32_anime_cel_martial_arts_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v32_anime_cel_martial_arts_6fps/animation_1794416964341331800.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v32_anime_cel_martial_arts_6fps/animation_1794416964341331800.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.92 MiB"
+    ],
+    "wall_seconds": 50.071,
+    "completed_at": "2026-11-12T01:09:29"
+  },
+  "33": {
+    "id": "33",
+    "slug": "v33_ink_wash_martial_arts_8fps",
+    "style": "ink_wash",
+    "motion": "martial_arts",
+    "fps": 8,
+    "seed": 20261144,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:09:30",
+    "status": "success",
+    "prompt_id": "ab93e5d4-72eb-4f76-9ede-97b233d18038",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v33_ink_wash_martial_arts_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v33_ink_wash_martial_arts_8fps/animation_1794417015457887500.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v33_ink_wash_martial_arts_8fps/animation_1794417015457887500.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.92 MiB"
+    ],
+    "wall_seconds": 50.057,
+    "completed_at": "2026-11-12T01:10:20"
+  },
+  "34": {
+    "id": "34",
+    "slug": "v34_claymation_martial_arts_10fps",
+    "style": "claymation",
+    "motion": "martial_arts",
+    "fps": 10,
+    "seed": 20261145,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:10:21",
+    "status": "success",
+    "prompt_id": "56d5c3fd-3d4b-463c-ae8e-1adab7fbc611",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v34_claymation_martial_arts_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v34_claymation_martial_arts_10fps/animation_1794417066274333700.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v34_claymation_martial_arts_10fps/animation_1794417066274333700.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.03 MiB"
+    ],
+    "wall_seconds": 50.069,
+    "completed_at": "2026-11-12T01:11:11"
+  },
+  "35": {
+    "id": "35",
+    "slug": "v35_watercolor_martial_arts_12fps",
+    "style": "watercolor",
+    "motion": "martial_arts",
+    "fps": 12,
+    "seed": 20261146,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:11:12",
+    "status": "success",
+    "prompt_id": "8c11ff7e-e901-40b0-9e53-d9b9de058203",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v35_watercolor_martial_arts_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v35_watercolor_martial_arts_12fps/animation_1794417117251607900.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v35_watercolor_martial_arts_12fps/animation_1794417117251607900.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.64 MiB"
+    ],
+    "wall_seconds": 50.094,
+    "completed_at": "2026-11-12T01:12:02"
+  },
+  "36": {
+    "id": "36",
+    "slug": "v36_cyberpunk_comic_martial_arts_4fps",
+    "style": "cyberpunk_comic",
+    "motion": "martial_arts",
+    "fps": 4,
+    "seed": 20261147,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:12:03",
+    "status": "success",
+    "prompt_id": "4d7db8f7-8cdd-49bf-9382-122255ddcaa1",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v36_cyberpunk_comic_martial_arts_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v36_cyberpunk_comic_martial_arts_4fps/animation_1794417168863739000.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v36_cyberpunk_comic_martial_arts_4fps/animation_1794417168863739000.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.24 MiB"
+    ],
+    "wall_seconds": 50.069,
+    "completed_at": "2026-11-12T01:12:53"
+  },
+  "37": {
+    "id": "37",
+    "slug": "v37_low_poly_martial_arts_6fps",
+    "style": "low_poly",
+    "motion": "martial_arts",
+    "fps": 6,
+    "seed": 20261148,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:12:54",
+    "status": "success",
+    "prompt_id": "4a2ce848-fe0a-4a6c-9f93-10f30a6b9077",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v37_low_poly_martial_arts_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v37_low_poly_martial_arts_6fps/animation_1794417221504832500.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v37_low_poly_martial_arts_6fps/animation_1794417221504832500.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.71 MiB"
+    ],
+    "wall_seconds": 50.077,
+    "completed_at": "2026-11-12T01:13:44"
+  },
+  "38": {
+    "id": "38",
+    "slug": "v38_oil_painting_martial_arts_8fps",
+    "style": "oil_painting",
+    "motion": "martial_arts",
+    "fps": 8,
+    "seed": 20261149,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:13:45",
+    "status": "success",
+    "prompt_id": "30da0c1e-af40-4746-b7a2-61f17e04a529",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v38_oil_painting_martial_arts_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v38_oil_painting_martial_arts_8fps/animation_1794417272152412900.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v38_oil_painting_martial_arts_8fps/animation_1794417272152412900.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.86 MiB"
+    ],
+    "wall_seconds": 50.117,
+    "completed_at": "2026-11-12T01:14:35"
+  },
+  "39": {
+    "id": "39",
+    "slug": "v39_paper_cut_martial_arts_10fps",
+    "style": "paper_cut",
+    "motion": "martial_arts",
+    "fps": 10,
+    "seed": 20261150,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:14:36",
+    "status": "success",
+    "prompt_id": "3705ffe2-9435-4f9c-8136-01125c4e9233",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v39_paper_cut_martial_arts_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v39_paper_cut_martial_arts_10fps/animation_1794417323467821100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v39_paper_cut_martial_arts_10fps/animation_1794417323467821100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.61 MiB"
+    ],
+    "wall_seconds": 50.081,
+    "completed_at": "2026-11-12T01:15:26"
+  },
+  "40": {
+    "id": "40",
+    "slug": "v40_film_noir_martial_arts_12fps",
+    "style": "film_noir",
+    "motion": "martial_arts",
+    "fps": 12,
+    "seed": 20261151,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:15:27",
+    "status": "success",
+    "prompt_id": "2c91cb8f-3c0e-44d1-8173-bcd2e291731f",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v40_film_noir_martial_arts_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v40_film_noir_martial_arts_12fps/animation_1794417373357904100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v40_film_noir_martial_arts_12fps/animation_1794417373357904100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.12 MiB"
+    ],
+    "wall_seconds": 50.155,
+    "completed_at": "2026-11-12T01:16:17"
+  },
+  "41": {
+    "id": "41",
+    "slug": "v41_cinematic_3d_spin_jump_4fps",
+    "style": "cinematic_3d",
+    "motion": "spin_jump",
+    "fps": 4,
+    "seed": 20261152,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:16:18",
+    "status": "success",
+    "prompt_id": "80a4d8cb-c37c-4657-9da1-d19dc03a0837",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v41_cinematic_3d_spin_jump_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v41_cinematic_3d_spin_jump_4fps/animation_1794417424866668900.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v41_cinematic_3d_spin_jump_4fps/animation_1794417424866668900.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.44 MiB"
+    ],
+    "wall_seconds": 50.114,
+    "completed_at": "2026-11-12T01:17:09"
+  },
+  "42": {
+    "id": "42",
+    "slug": "v42_anime_cel_spin_jump_6fps",
+    "style": "anime_cel",
+    "motion": "spin_jump",
+    "fps": 6,
+    "seed": 20261153,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:17:10",
+    "status": "success",
+    "prompt_id": "bf0e1aca-141f-4ec2-9444-8e529fa02a4a",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v42_anime_cel_spin_jump_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v42_anime_cel_spin_jump_6fps/animation_1794417476764652300.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v42_anime_cel_spin_jump_6fps/animation_1794417476764652300.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.28 MiB"
+    ],
+    "wall_seconds": 50.061,
+    "completed_at": "2026-11-12T01:18:00"
+  },
+  "43": {
+    "id": "43",
+    "slug": "v43_ink_wash_spin_jump_8fps",
+    "style": "ink_wash",
+    "motion": "spin_jump",
+    "fps": 8,
+    "seed": 20261154,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:18:01",
+    "status": "success",
+    "prompt_id": "31364587-3cad-48d2-b1a2-84a8eea8b51b",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v43_ink_wash_spin_jump_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v43_ink_wash_spin_jump_8fps/animation_1794417526838262200.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v43_ink_wash_spin_jump_8fps/animation_1794417526838262200.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.66 MiB"
+    ],
+    "wall_seconds": 50.087,
+    "completed_at": "2026-11-12T01:18:51"
+  },
+  "44": {
+    "id": "44",
+    "slug": "v44_claymation_spin_jump_10fps",
+    "style": "claymation",
+    "motion": "spin_jump",
+    "fps": 10,
+    "seed": 20261155,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:18:52",
+    "status": "success",
+    "prompt_id": "0c37efbf-c8a1-4d83-af27-101cb7e119b3",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v44_claymation_spin_jump_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v44_claymation_spin_jump_10fps/animation_1794417578289960500.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v44_claymation_spin_jump_10fps/animation_1794417578289960500.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.67 MiB"
+    ],
+    "wall_seconds": 50.042,
+    "completed_at": "2026-11-12T01:19:42"
+  },
+  "45": {
+    "id": "45",
+    "slug": "v45_watercolor_spin_jump_12fps",
+    "style": "watercolor",
+    "motion": "spin_jump",
+    "fps": 12,
+    "seed": 20261156,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:19:43",
+    "status": "success",
+    "prompt_id": "e1ffd5d4-e9fa-447a-8305-6eeb13308733",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v45_watercolor_spin_jump_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v45_watercolor_spin_jump_12fps/animation_1794417628392136200.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v45_watercolor_spin_jump_12fps/animation_1794417628392136200.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 1.11 MiB"
+    ],
+    "wall_seconds": 50.092,
+    "completed_at": "2026-11-12T01:20:33"
+  },
+  "46": {
+    "id": "46",
+    "slug": "v46_cyberpunk_comic_spin_jump_4fps",
+    "style": "cyberpunk_comic",
+    "motion": "spin_jump",
+    "fps": 4,
+    "seed": 20261157,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:20:34",
+    "status": "success",
+    "prompt_id": "4f976a80-bd56-40f2-9506-739cd618f6a6",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v46_cyberpunk_comic_spin_jump_4fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v46_cyberpunk_comic_spin_jump_4fps/animation_1794417679584455900.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v46_cyberpunk_comic_spin_jump_4fps/animation_1794417679584455900.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.84 MiB"
+    ],
+    "wall_seconds": 50.046,
+    "completed_at": "2026-11-12T01:21:24"
+  },
+  "47": {
+    "id": "47",
+    "slug": "v47_low_poly_spin_jump_6fps",
+    "style": "low_poly",
+    "motion": "spin_jump",
+    "fps": 6,
+    "seed": 20261158,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:21:25",
+    "status": "success",
+    "prompt_id": "b053a4de-e206-4227-adbf-a9a54964485c",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v47_low_poly_spin_jump_6fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v47_low_poly_spin_jump_6fps/animation_1794417730948878600.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v47_low_poly_spin_jump_6fps/animation_1794417730948878600.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.48 MiB"
+    ],
+    "wall_seconds": 50.052,
+    "completed_at": "2026-11-12T01:22:15"
+  },
+  "48": {
+    "id": "48",
+    "slug": "v48_oil_painting_spin_jump_8fps",
+    "style": "oil_painting",
+    "motion": "spin_jump",
+    "fps": 8,
+    "seed": 20261159,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:22:16",
+    "status": "success",
+    "prompt_id": "19e93b34-cb8c-422f-be43-8a532ae76d03",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v48_oil_painting_spin_jump_8fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v48_oil_painting_spin_jump_8fps/animation_1794417782061742200.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v48_oil_painting_spin_jump_8fps/animation_1794417782061742200.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 4.41 MiB"
+    ],
+    "wall_seconds": 50.114,
+    "completed_at": "2026-11-12T01:23:06"
+  },
+  "49": {
+    "id": "49",
+    "slug": "v49_paper_cut_spin_jump_10fps",
+    "style": "paper_cut",
+    "motion": "spin_jump",
+    "fps": 10,
+    "seed": 20261160,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:23:07",
+    "status": "success",
+    "prompt_id": "ea5f9c5b-5bec-4ffe-9d17-d9bc80d5aa8b",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v49_paper_cut_spin_jump_10fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v49_paper_cut_spin_jump_10fps/animation_1794417832214276000.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v49_paper_cut_spin_jump_10fps/animation_1794417832214276000.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.72 MiB"
+    ],
+    "wall_seconds": 45.407,
+    "completed_at": "2026-11-12T01:23:52"
+  },
+  "50": {
+    "id": "50",
+    "slug": "v50_film_noir_spin_jump_12fps",
+    "style": "film_noir",
+    "motion": "spin_jump",
+    "fps": 12,
+    "seed": 20261161,
+    "rows": 3,
+    "columns": 3,
+    "started_at": "2026-11-12T01:23:53",
+    "status": "success",
+    "prompt_id": "de9aaa21-29a4-43aa-afec-a2607cd41f84",
+    "source_images": [
+      {
+        "filename": "storyboard_00001_.png",
+        "subfolder": "H3GIF\\batch50\\v50_film_noir_spin_jump_12fps\\source",
+        "type": "output",
+        "metadata": {
+          "kind": "image",
+          "width": 2048,
+          "height": 2048
+        }
+      }
+    ],
+    "split_frame_count": 9,
+    "gif_path": "output/H3GIF/batch50/v50_film_noir_spin_jump_12fps/animation_1794417879004010100.gif",
+    "gif_text": [
+      "Saved GIF: /output/H3GIF/batch50/v50_film_noir_spin_jump_12fps/animation_1794417879004010100.gif",
+      "Frames: 16",
+      "Size: 678x678",
+      "File size: 3.48 MiB"
+    ],
+    "wall_seconds": 50.093,
+    "completed_at": "2026-11-12T01:24:44"
+  }
+}

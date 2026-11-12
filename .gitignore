@@ -15,3 +15,4 @@ backups/
 test-artifacts/
 *.zip
 *.log
+!docs/benchmarks/previews/*.gif
